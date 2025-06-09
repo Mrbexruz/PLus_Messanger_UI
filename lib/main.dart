@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_drawer/home_pages.dart';
+import 'package:flutter_drawer/tab_bar_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: HomePages(),
+    return  MaterialApp(
+      home: TabBarPage(),
     );
 
   }
